@@ -1,5 +1,3 @@
-ines (79 sloc)  3.18 KB
-
 #ifndef BINARY_TREES_H
 #define BINARY_TREES_H
 
@@ -32,3 +30,7 @@ typedef struct binary_tree_s heap_t;
 
 /* Printing helper function */
 void binary_tree_print(const binary_tree_t *);
+
+binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
+
+#endif
